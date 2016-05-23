@@ -1,0 +1,62 @@
+<include file="Common/header" />
+
+<input type="hidden" id="item_id" value="{$item_id}">
+      
+<div class="main-container">
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="page-content">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<div class="space-32"></div>
+						<div class="widget-box">
+							<div class="widget-header">
+								<h5 class="widget-title">新增成员</h5>
+							</div>
+							<div class="widget-body">
+								<div class="widget-main">
+									<form class="form-horizontal" role="form">
+										<div class="form-group">
+											<label for=username class="col-sm-2 control-label no-padding-right"> 用户名 </label>
+											<div class="col-sm-10">
+												<input type="text" id="username" class="form-control" placeholder="用户名" value="">
+											</div>
+										</div>
+										<div class="space-4"></div>
+										<div class="clearfix">
+											<div class="col-sm-10 col-sm-offset-2">
+												<button type="submit" class="btn btn-primary btn-sm" id="save-cat">
+													<i class="ace-icon fa fa-check"></i>
+													保存
+												</button>
+											</div>
+										</div>
+									</form>
+									<div class="space-16"></div>
+									<!-- 成员列表 -->
+									<h4>成员列表&nbsp;<small>（点击可删除）</small></h4>
+									<hr>
+									<div id="show-cat">
+									
+									</div>
+								</div>
+								<div class="widget-toolbox padding-8 clearfix">
+									<button class="btn btn-sm pull-right exist-cat">
+										<i class="ace-icon fa fa-mail-reply"></i>
+										返回
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<include file="Common/footer" />
+	
+	<script src="__PUBLIC__/js/member/edit.js"></script>
+		
+</body>
+</html>
