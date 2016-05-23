@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"cat_id";i:1;s:8:"cat_name";i:2;s:7:"item_id";i:3;s:5:"order";i:4;s:7:"addtime";s:3:"_pk";s:6:"cat_id";s:5:"_type";a:5:{s:6:"cat_id";s:7:"int(10)";s:8:"cat_name";s:11:"varchar(20)";s:7:"item_id";s:7:"int(10)";s:5:"order";s:7:"int(10)";s:7:"addtime";s:7:"int(11)";}}
