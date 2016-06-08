@@ -9,22 +9,19 @@ body{
 </style>
 <!-- 这里开始是内容 -->
 <div class="" style="padding-top:10px;">
-
 {$page.page_content}
-
 </div>
 
-
-
-
- <include file="Common/footercontent" />
+<include file="Common/footercontent" />
 <script>
 
 $(function(){
+	
     hljs.initHighlightingOnLoad();
-
+    
     //为所有table标签添加bootstap支持的表格类
-    $("table").addClass("table table-bordered table-hover");
+    $("table thead tr").addClass("active");
+    $("table").addClass("table table-striped table-bordered table-hover");
 
     //超链接都在新窗口打开
 	$('a[href^="http"]').each(function() {

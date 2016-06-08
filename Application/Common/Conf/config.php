@@ -4,7 +4,7 @@ return array(
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	'DB_HOST'   => 'localhost',
 	'DB_NAME'   => 'a1doc', 
-	'DB_USER'   => 'root', 
+	'DB_USER'   => 'admin', 
 	'DB_PWD'    => 'admin',
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX' => '', // 数据库表前缀
@@ -15,4 +15,5 @@ return array(
 	'URL_ROUTE_RULES'=>array(
 	    ':id\d'               => 'Home/Item/Show?item_id=:1',
 	),
+	'SHOW_PAGE_TRACE' => false,
 );

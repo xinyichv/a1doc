@@ -52,14 +52,14 @@ $(function(){
     };
   });
   
-  var ifr = document.getElementById('page-content');
-  ifr.onload = function() {
-      var iDoc = ifr.contentDocument || ifr.document;
-      var height = calcPageHeight(iDoc);
-      ifr.style.height = height + 'px';
-  };
-    
 });
+
+function iFrameHeight() {
+	var ifr = document.getElementById('page-content');
+	var iDoc = ifr.contentDocument || ifr.document;
+	var height = calcPageHeight(iDoc);
+	ifr.style.height = height + 'px';
+}
 
 //js获取url参数
 function GetQueryString(name) {
