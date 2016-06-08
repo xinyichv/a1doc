@@ -53,6 +53,24 @@ A1-Doc就是一个非常适合IT团队的在线文档分享工具，它可以加
 	- 历史版本
 	
 		A1-Doc为页面提供历史版本功能，你可以方便地把页面恢复到之前的版本。
+		
+- ###部署到自己的服务器
+	- 克隆或者下载代码：
+
+       [https://github.com/xinyichv/a1doc.git](https://github.com/xinyichv/a1doc.git)
+
+	- 导入数据库
+
+       下载代码后，将根目录的a1doc.sql文件导入 mysql数据库
+
+	- 修改配置文件
+
+       进入Application/Common/ Conf/目录，编辑config.php文件，填写相应的数据库信息
+
+	- 目录权限
+
+       请确保Application/Runtime 和Public/Uploads 有可写权限
+
 
 ###版权
 
